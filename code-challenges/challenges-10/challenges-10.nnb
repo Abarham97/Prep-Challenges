@@ -45,7 +45,7 @@
         {
             "language": "javascript",
             "source": [
-                ""
+                "function compareTriplets(a, b) {\n\n    let Resulte = [0,0];\n    \n    for (let i=0;i< a.length;i++)\n    {\n        if(a[i]>b[i])\n        Resulte[0]+=1;\n        else if (b[i]>a[i])\n        Resulte[1]+=1;\n        \n    }//for\n    \n    return Resulte;\n    }"
             ],
             "outputs": []
         },
@@ -59,7 +59,7 @@
         {
             "language": "javascript",
             "source": [
-                ""
+                "function migratoryBirds(arr) {\n    // Write your code here\n    const birdCounts = {};\n\n \n  for (let bird of arr) {\n    if (birdCounts[bird]) {\n      birdCounts[bird]++;\n    } else {\n      birdCounts[bird] = 1;\n    }\n  }\n\n  let mostFrequentBird = null;\n  let maxCount = 0;\n\n  \n  for (let bird in birdCounts) {\n    if (birdCounts[bird] > maxCount) {\n      mostFrequentBird = bird;\n      maxCount = birdCounts[bird];\n    }\n  }\n\n  return mostFrequentBird;\n\n}"
             ],
             "outputs": []
         }
