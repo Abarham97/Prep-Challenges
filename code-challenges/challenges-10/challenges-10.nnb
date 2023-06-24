@@ -45,7 +45,9 @@
         {
             "language": "javascript",
             "source": [
+
                 "function compareTriplets(a, b) {\n\n    let Resulte = [0,0];\n    \n    for (let i=0;i< a.length;i++)\n    {\n        if(a[i]>b[i])\n        Resulte[0]+=1;\n        else if (b[i]>a[i])\n        Resulte[1]+=1;\n        \n    }//for\n    \n    return Resulte;\n    }"
+
             ],
             "outputs": []
         },
