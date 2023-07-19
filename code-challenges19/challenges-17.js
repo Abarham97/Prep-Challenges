@@ -77,7 +77,7 @@ const isPalindrome = (str) => {
     // write your code here
     const cleanString = str.toLowerCase().replace(/[^a-z0-9]/g, '');
 
-    // Check if the clean string is equal to its reversed version
+    
     return cleanString === cleanString.split('').reverse().join('');
 }
 // -------------------------------------------------------------------------------------------------------
